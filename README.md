@@ -1,4 +1,4 @@
-RetailPro --- Proyecto de Data Analytics
+**##RetailPro --- Proyecto de Data Analytics**
 Autor: Mariano Lombardo
 Área: Data Analytics / Business Intelligence
 Herramientas principales: SQL, Power BI, Power Query, DAX y GitHub
@@ -67,7 +67,7 @@ En conjunto, estas herramientas permitieron recorrer las principales etapas de u
 | 5 | [ENTREGA-8](https://github.com/MLOMBARDO-cell/ENTREGA-8) — `Pipeline_ETL_Lombardo_MarianoTP8.pbix` | Power BI Desktop, Power Query, DAX |
 | 6 | Todos los repositorios | GitHub, Markdown |
 
-Repositorios y entregas
+##Repositorios y entregas
   Etapa                   Repositorio                                                                                        Contenido
   Entrega 3 --- Base de   ENTREGA3                                             ENTREGA 3.sql: creación de la base
   datos                                                                                                                      Ventas_Tech_DB, tablas, relaciones,
@@ -88,7 +88,7 @@ Repositorios y entregas
   Entrega 8 --- Modelo y  ENTREGA-8                                           Pipeline_ETL_Lombardo_MarianoTP8.pbix:
   medidas                                                                                                                    continuación del trabajo en Power BI, con
                                                                                                                          modelo, medidas y validaciones analíticas.
-Modelo de datos
+#Modelo de datos
 El script inicial define cuatro entidades principales:
 - categorias: clasificación de los productos.
 - productos: catálogo, categoría, precio, stock y estado del
@@ -126,7 +126,7 @@ ejemplo y consultar las tablas para verificar la carga. Sin embargo, usa
 sintaxis de MySQL (AUTO_INCREMENT, TINYINT(1)) y no es directamente
 compatible con SQL Server tal como está escrito.
 
-Procedimiento recomendado:
+#Procedimiento recomendado:
 1. Elegí el motor SQL que vas a utilizar.
 2. Adaptá el script de creación de tablas a ese motor. Para SQL Server,
    por ejemplo, AUTO_INCREMENT debe convertirse a IDENTITY(1,1) y
@@ -218,7 +218,7 @@ Antes de considerar terminado el análisis:
 - Probar los indicadores con distintos períodos y filtros.
 - Confirmar que las medidas temporales respondan correctamente al
   calendario y al contexto de filtro.
-Cómo abrir los archivos de Power BI
+#Cómo abrir los archivos de Power BI
 1. Instalá Power BI Desktop.
 2. Descargá el archivo .pbix desde el repositorio de la entrega
    correspondiente.
@@ -228,7 +228,7 @@ Cómo abrir los archivos de Power BI
 5. Usá Actualizar para volver a cargar los datos.
 6. Revisá las relaciones, medidas y visualizaciones antes de
    interpretar los resultados.
-Alcance y estado
+#Alcance y estado
 Este repositorio reúne entregas académicas progresivas de un mismo caso
 de análisis. Los scripts SQL y los archivos .pbix se encuentran
 distribuidos en repositorios separados; por eso, los nombres de tablas,
