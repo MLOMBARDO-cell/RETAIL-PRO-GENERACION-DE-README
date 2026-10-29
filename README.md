@@ -1,4 +1,4 @@
-**##RetailPro --- Proyecto de Data Analytics**
+###RetailPro --- Proyecto de Data Analytics
 Autor: Mariano Lombardo
 Área: Data Analytics / Business Intelligence
 Herramientas principales: SQL, Power BI, Power Query, DAX y GitHub
